@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+*.err.log
+
+# Local runtime data and biometric records
+face_db/
+database/
+snapshots/
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+build/
+dist/
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.conda/
+Thumbs.db
+.DS_Store
+
+# Model downloads can be large. Remove these lines if you intentionally track them.
+models/*.caffemodel
+models/*.dat
+models/*.h5
+models/*.onnx
+!models/README.md
+!models/*.prototxt

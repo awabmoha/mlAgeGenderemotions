@@ -1,0 +1,4 @@
+-r requirements.txt
+deepface>=0.0.93
+tf-keras>=2.16
+dlib>=19.24
